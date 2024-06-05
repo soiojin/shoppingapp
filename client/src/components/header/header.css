@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.header-header {
+    align-items: center;
+    padding: 20px;
+    width: 180px; /* 고정된 사이드바의 너비 */
+    height: 100vh; /* 화면 높이에 맞춤 */
+    position: fixed; /* 고정된 위치 */
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    padding: 40px 10px 80px 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.navContainer{
+    padding: 0px 0px 20px 0px;
+}
+
+.shop-container {
+    margin-top: 15px;
+}
+
+.navButton {
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
+  background: none; /* 배경 제거 */
+  border: none; /* 테두리 제거 */
+  color:rgb(52, 50, 50);/* 텍스트 색상 설정 */
+  font-size: 13.6px; /* 버튼 폰트 크기 설정 */
+  padding: 5px 10px 0px 10px; /* 버튼 여백 설정 */
+  cursor: pointer; /* 마우스 커서 변경 */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navButton:hover {
+    color:rgb(197, 193, 193);
+}
+
+.toggle {
+    text-align: left; /* 텍스트를 왼쪽 정렬 */
+    background: none; /* 배경 제거 */
+    border: none; /* 테두리 제거 */
+    color: rgb(52, 50, 50); /* 텍스트 색상 설정 */
+    font-size: 14.5px; /* 버튼 폰트 크기 설정 */
+    padding: 5px 10px 5px 10px; /* 버튼 여백 설정 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.toggle:hover {
+    color:rgb(197, 193, 193);
+}
+
+.shoplist {
+    background: none; /* 배경 제거 */
+    border: none; /* 테두리 제거 */
+    color: rgb(52, 50, 50); /* 텍스트 색상 설정 */
+    font-size: 14.5px; /* 버튼 폰트 크기 설정 */
+    padding: 0px 10px 7px 20px; /* 버튼 여백 설정 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    transition: height 1s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.collectionlist {
+    background: none; /* 배경 제거 */
+    border: none; /* 테두리 제거 */
+    color: rgb(52, 50, 50); /* 텍스트 색상 설정 */
+    font-size: 14.5px; /* 버튼 폰트 크기 설정 */
+    padding: 0px 10px 7px 20px; /* 버튼 여백 설정 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    transition: height 1s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.communitylist {
+    background: none; /* 배경 제거 */
+    border: none; /* 테두리 제거 */
+    color: rgb(52, 50, 50); /* 텍스트 색상 설정 */
+    font-size: 14.5px; /* 버튼 폰트 크기 설정 */
+    padding: 0px 10px 7px 20px; /* 버튼 여백 설정 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    transition: height 1s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.newin {
+    color: (52, 50, 50);
+}
+.categories {
+    padding: 20px 0px 20px 0px;
+}
+
+.shoplist:hover {
+    color:rgb(197, 193, 193);
+    transform: translateX(10px);
+}
+
+.collectionlist:hover {
+    color:rgb(197, 193, 193);
+    transform: translateX(10px);
+}
+.communitylist:hover {
+    color:rgb(197, 193, 193);
+    transform: translateX(10px);
+}

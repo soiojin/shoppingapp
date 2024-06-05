@@ -1,0 +1,54 @@
+.item1 {
+    width: 600px;
+    padding: 0px 50px 0px 275px;
+    margin: 0;
+}
+.sliderImg {
+    width: 600.84px;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    display: flex;
+}
+
+.item2 {
+    width: 500px;
+    padding: 70px 50px 0px 50px;
+    position: fixed; /* 오른쪽 div를 고정 */
+            right: 0;
+            top: 0;
+            height: 100vh; /* 뷰포트 높이 만큼 */
+}
+.element {
+    padding: 0px 0px 50px 0px;
+}
+.cname {
+    font-size: 18px;
+}
+.cprice {
+    padding: 15px 0px 0px 0px;
+    font-size: 15px;
+    color: rgba(40, 38, 37, 0.619);
+}
+.c {
+    padding: 10px 0px 10px 0px;
+    color: rgba(40, 38, 37, 0.619);
+    font-size: 14px;
+}
+p {
+    color: rgba(40, 38, 37, 0.619);
+    font-size: 13px;
+}
+.cartbutton {
+    width: 100px;
+    height: 26.6px;
+    margin-top: 20px;
+    background-color: #000000;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;/* Add space above the button */
+    border-radius: 0; /* 모서리를 각지게 만듭니다 */
+}

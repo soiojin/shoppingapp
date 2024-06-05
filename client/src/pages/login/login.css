@@ -1,0 +1,112 @@
+.login-body {
+    height: 100vh; /* 화면 전체 높이 */
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column; /* Flex 방향을 수직으로 설정 */
+
+    background-color: white;
+    padding: 20px 30px;
+    width: 400px;
+    height: 366;
+    border: none;
+}
+
+.login-form {
+    width: 600px;
+    display: flex;
+    flex-direction: column; /* Flex 방향을 수직으로 설정 */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 180px;
+}
+
+.login-title {
+    font-size: 15px;
+    padding: 10px 10px 30px 0px;
+
+
+}
+
+.lInput {
+    border-radius: 0; /* 모서리를 각지게 만듭니다 */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 400px;
+    margin-bottom: 10px;
+    height: 30px;
+
+}
+
+.lInput::placeholder {
+    color:#c9cbc9;
+    opacity: 1;
+}
+
+.login-button {
+    width: 100px;
+    height: 26.6px;
+    margin: 20px 4px 20px 0px;
+    background-color: #000000;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;/* Add space above the button */
+    border-radius: 0; /* 모서리를 각지게 만듭니다 */
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.signup {
+    text-align: right;
+}
+.lsignupbutton {
+    width: 100px;
+    height: 26.6px;
+    margin-top: 20px;
+    background-color: #000000;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;/* Add space above the button */
+    border-radius: 0; /* 모서리를 각지게 만듭니다 */
+}
+
+.lsignupbutton:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.idsave {
+    padding-left: 3px;
+    color: #8e8b8b;
+    font-size: 12px;
+}
+
+.forgotlist {
+    list-style: none; /* 말머리 기호를 없앱니다 */
+  padding: 0; /* 리스트의 기본 패딩을 제거합니다 */
+  margin: 0; /* 리스트의 기본 마진을 제거합니다 */
+  display: flex; /* 리스트를 플렉스 박스로 만들어 수평으로 배치합니다 */
+}
+
+.forgotlist li {
+    font-size: 13px;
+    color: #8e8b8b;
+    margin-right: 20px; /* 리스트 항목 사이의 간격을 설정합니다 */
+  }
+
+  .forgotlist li:last-child {
+    margin-right: 0; /* 마지막 리스트 항목의 오른쪽 마진을 제거합니다 */
+  }

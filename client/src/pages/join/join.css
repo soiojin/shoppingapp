@@ -1,0 +1,108 @@
+.register-body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190vh;
+    margin-bottom: 90px;
+}
+
+.register-container {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 450px;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    align-items: baseline;
+}
+
+label {
+    font-size: 14px; /* 글씨 크기 설정 */
+    width: 100%;
+    letter-spacing: 0.7px; /* 글자 간격 설정 */
+    display: inline-block;
+}
+
+.required {
+    color: red; /* 별표 색상 설정 */
+    margin-left: 2px;
+}
+
+.hint {
+    font-size: 11px; /* 힌트 글씨 크기 설정 */
+    color: #666; /* 힌트 글씨 색상 설정 */
+    margin-left: auto;
+    white-space: nowrap;
+    display: inline-block;
+    float: right;
+    width: auto;
+}
+
+input[type="text"],input[type="password"] {
+    flex:1;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 433px;
+}
+
+.registerTitle {
+    font-size: 15px; /* 글씨 크기 설정 */
+    font-weight: 600; /* 글씨 두께 설정 */
+    letter-spacing: 2.3px; /* 글자 간격 설정 */
+    text-transform: uppercase; /* 모든 글자를 대문자로 변환 */
+    color: #000; /* 글자 색상 설정 */
+    padding: 0px 0px 30px 0px;
+}
+
+.idlable {
+    display: flex;
+}
+
+.agreetable {
+    border: #c5c3c3;
+    font-size: 12px;
+    width: 450px;
+}
+
+.incheck {
+    padding: 30px 30px 30px 30px;
+}
+
+.agreechecktext {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+
+
+.jsignupbutton {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px; /* Add space above the button */
+}
+
+.jsignupbutton:hover {
+    background-color: #ffffff;
+    color:#000;
+
+}
+
