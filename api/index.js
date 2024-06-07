@@ -38,7 +38,7 @@ const Clothing = mongoose.model('Clothing', {
 // 미들 웨어 설정
 // 이 코드는 모든 도메인에서의 요청을 허용하는 기본 CORS 설정을 사용합니다.
 const corsOptions = {
-    origin: 'http://localhost:3000', // 클라이언트 url
+    origin: ['http://localhost:3000',,'http://43.202.43.169:3000','http://localhost:3000'], // 클라이언트 url
     credentials: true, // 자격 증명 허용
   }
 app.use(cors(corsOptions))
